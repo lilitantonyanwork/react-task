@@ -1,0 +1,18 @@
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 40px;
+}
+.post-list-empty{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.post-loading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #9B9B9B;
+}
