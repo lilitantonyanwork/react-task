@@ -1,9 +1,8 @@
-import {useState} from "react";
 import './Post.css';
 
 function Post( { item, onClick }){
     return(
-        <div className='post' onClick={() => onClick(item)}>
+        <div className='post' onClick={() => onClick(item)}  >
             <div className='post-img'>
                 <img src={item.img}
                      alt={item.title}

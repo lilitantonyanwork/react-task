@@ -6,7 +6,6 @@ import BlogList from "./components/BlogList";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedPost, setSelectedPost] = useState(null);
 
   return (
     <div>
